@@ -1,6 +1,7 @@
 import streamlit as st
 import cohere
-co = cohere.Client('API_KEY')
+key = st.secrets["API_KEY"]
+co = cohere.Client(key)
 
 st.title('Let ML Describe you Tinderfully')
 
