@@ -3,7 +3,7 @@ import cohere
 key = st.secrets["API_KEY"]
 co = cohere.Client(key)
 
-st.title('Let ML Describe you Tinderfully')
+st.title('Let ML Describe you Tinderly')
 
 #traits_input = " "
 traits_input = st.text_input('What are 5 things that describe you?'," ")
